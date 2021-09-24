@@ -1,0 +1,133 @@
+body {
+    height: auto;
+}
+#wrapper {
+    height: auto;
+}
+#all_user_posts {
+    margin-top: 50px;
+    margin-left: 15px;
+    height: 370px;
+}
+
+#all_user_posts > h2 {
+    margin-left: -25px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border-bottom: rgb(255,0,55) 1px solid;
+}
+.submit_advert {
+    position: absolute;
+    left: 50%;
+    bottom:-40px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #f1f1f1;
+    z-index: 10;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 55,1);
+    padding: 15px 30px;
+    transition: 300ms;
+    border: none;
+}
+
+.submit_advert:hover {
+    background-color: rgb(255, 0, 55,1);
+    color: rgb(29, 29, 29);
+}
+
+#new_advert_form {
+    padding: 50px 10px 50px 50px;
+    background-color: rgb(11, 11, 11,0.5);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: relative;
+}
+
+#instr {
+    padding: 15px 15px 10px 15px ;
+    position: absolute;
+    width: 530px;
+    height: 712px;
+    top: 50px;
+    right: 20px;
+    border-left: 1px solid rgb(255,0,55);
+}
+#instr img {
+    margin-top: 30px;
+    margin-left: 30px;
+} 
+
+#instr h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+
+
+header {
+    height: 100px;
+}
+
+/* edit form select/option */
+select {
+    margin-top: -5px;
+    height: 30px;
+    width: 450px;
+    outline: none;
+    margin-left: 10px;
+    padding: 0px 10px;     
+    appearance: none; 
+    background-color: rgb(29, 29, 29);
+    color: #fff;
+    text-align: center;
+    text-align-last:center;
+    border: none;
+    border-radius: 3px;
+    border-left: rgb(255,0,55) 2px solid;
+}
+option {
+    background-color: rgb(29, 29, 29);
+}
+
+option:hover {
+    background-color: yellow;
+  }
+
+/* imput fileds */
+#adv_title,
+#adv_price,
+#adv_city,
+#adv_phone{
+    width: 525px;
+}
+#adv_state{
+   border-top: 1px solid rgb(255,0,55);
+   padding-top: 10px;
+   width: 520px;
+}
+#adv_state .checkbox{
+    margin-left: 5px;
+}
+
+#adv_state input {
+    margin: 0 20px;
+}
+
+#tiny_editor {
+    max-width: 700px;
+    clear: both;
+}
+
+#adv_group label {
+    margin-right: 18px;
+}
+

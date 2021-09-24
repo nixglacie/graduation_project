@@ -1,0 +1,110 @@
+
+/* slider cs */
+/* Slideshow container */
+.slideshow-container {
+    max-width: 850px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    width: auto;
+    margin-top: -22px;
+    padding: 150px 16px 16px 16px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    height: 350px;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #fff;
+    font-size: 15px;
+    padding: 4px 8px 8px 8px;
+    position: absolute;
+    left: 55px;
+    bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #ff0055;
+    max-width: 300px;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #fff;
+    font-size: 15px;
+    padding: 4px 8px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #ff0055;
+    position: absolute;
+    top: 30px;
+    left: 55px;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 8px;
+    width: 70px;
+    margin-left: 2px;
+    background-color: rgb(255, 0, 55);
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    
+  }
+  /* container for dots */
+  .dot_holder {
+    position: absolute;
+    bottom: 10px;
+    left: 55px;
+  }
+  
+  .active, .dot:hover {
+    background-color: #ffffff;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  
